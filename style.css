@@ -1,0 +1,171 @@
+#in
+{
+    width: 500px;
+}
+
+#box
+{
+    padding: 10px;
+    width: 600px;
+    
+}
+
+html 
+{
+    background-image:url("image/image_manager__slider_wald_01-waldweg.jpg");
+    background-color: #2E2E2E; 
+    color: #fff;
+    font-family: courier ;
+    overflow: hidden;
+    cursor: url("image/lupeklein.png"),  url("image/lupeklein.png"),  url("image/lupeklein.png"),  auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#kompass {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 600px;
+    cursor:  pointer;
+}
+
+#kompassMitte{
+    position: absolute;
+}
+
+#n {
+    position: absolute;
+    bottom:183px;
+    left: 134px;
+}
+#no {
+    position: absolute;
+    left:172px;
+    top:61px;
+
+
+}
+#o {
+    position: absolute;
+    top:135px;
+    left: 183px;
+}
+#so {
+    position: absolute;
+    top:174px;
+    left: 166px;
+}
+#s {
+    position: absolute;
+    top: 185px;
+    left: 127px;
+}
+#sw {
+    position: absolute;
+    top:166px;
+    left: 56px;
+}
+#w {
+    position: absolute;
+    top: 129px;
+    left: 1px;
+}
+#nw {
+    position: absolute;
+    top:57px;
+    left: 60px;
+}
+
+.himmelsrichtungen{
+    height: 116px;
+    width: 166.6666px;
+}
+
+#t{
+    position: absolute;
+    cursor:  pointer;
+}
+
+#hand {
+    border: solid #000 3px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    position: absolute;
+    left: 180px;
+    cursor:  pointer;
+    background-color: #A9D0F5;
+    color: #000 ;
+    opacity: 0.9;
+}
+
+#handbox{
+    position: relative;
+    left: 1300px;
+    bottom: 400px;
+}
+
+#prompt
+{
+    background-color: hsla(255, 100%, 0%, 0.9);
+    height: 50px;
+    padding: 20px;
+    width: 200px;
+}
+
+#troll
+{
+    top: 675px;
+    left: 500px;
+    position: absolute;
+}
+
+#schluessel{
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+    cursor: url("image/lupegross.png"),  url("image/lupegross.png"),  url("image/lupegross.png"),  auto;
+}
+
+#beutelvoninnen{
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
+
+.durchsichtig{
+    opacity:0;
+}
+
+#artikel{
+    float: left;
+    margin: 10px;
+}
+
+.abstand{
+    margin-bottom: 1.5px;
+    margin-top: 1px;
+}
+
+#pfeil{
+    position: absolute;
+    top: 850px;
+    left: 1500px;
+}
+
+#brunnen{
+    position: absolute;
+    top: 650px;
+    left: 1000px;
+}
+
+.Artikelclasse{
+    width: 550px;
+    height: 400px;
+    position: absolute;
+    left: 610px;
+    top: 550px;
+}

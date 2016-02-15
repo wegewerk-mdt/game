@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+
+<p id="prompt"></p>
+<div class="himmelsrichtungen" id="kompass">
+<img id="kompassMitte"  src="image/kompassMitte.png" width="300" height="300">
+<img id="n" onclick="eingabe('n')"  src="image/norden.png" width="36" height="117">
+<img id="s" onclick="eingabe('s')"  src="image/sueden.png" width="38" height="115">
+<img id="w" onclick="eingabe('w')" src="image/westen.png" width="116" height="36">
+<img id="o" onclick="eingabe('o')" src="image/osten.png" width="115" height="37">
+<img id="no" onclick="eingabe('no')" src="image/nordosten.png" width="70" height="72">
+<img id="so" onclick="eingabe('so')" src="image/suedosten.png" width="73" height="69">
+<img id="sw" onclick="eingabe('sw')" src="image/suedwesten.png" width="70" height="74">
+<img id="nw" onclick="eingabe('nw')" src="image/nordwesten.png" width="73" height="71">
+</div>
+<div id="handbox">
+<img id="t" onclick="eingabe('t')" src="image/beutel.png" width="110" height="150">
+
+
+<div id="hand" onclick="eingabe('q')"> <p class="abstand">In deiner Hand befindet sich momentan:</p></div> 
+</div>
+
+
+<div id="maus"></div>
+
+<div id="artikelAusgabe"></div>
+</div>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="map.js"></script>
+	<script type="text/javascript" src="funktionent.js"></script>
+</div>
+
+
+
+</body>
+
